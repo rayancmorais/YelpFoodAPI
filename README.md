@@ -79,3 +79,14 @@ Follow these instructions to set up and run the project locally.
 ## 📂 Project Structure
 
 The key files and directories are organized as follows:
+
+YelpFoodAPI/
+├── assets/             # Images, fonts, and other static assets
+├── src/
+│   ├── components/     # Reusable UI components (e.g., SearchBar, BusinessCard)
+│   ├── screens/        # Main application screens (e.g., SearchScreen, DetailScreen)
+│   └── api/            # Logic for Yelp API communication and setup
+├── .env                # Environment variables (API key)
+├── App.js              # Main application entry point
+├── package.json        # Project dependencies and scripts
+└── ...
