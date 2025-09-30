@@ -80,13 +80,32 @@ Follow these instructions to set up and run the project locally.
 
 The key files and directories are organized as follows:
 
+## Root Directory
 YelpFoodAPI/
-├── assets/             # Images, fonts, and other static assets
-├── src/
-│   ├── components/     # Reusable UI components (e.g., SearchBar, BusinessCard)
-│   ├── screens/        # Main application screens (e.g., SearchScreen, DetailScreen)
-│   └── api/            # Logic for Yelp API communication and setup
-├── .env                # Environment variables (API key)
-├── App.js              # Main application entry point
-├── package.json        # Project dependencies and scripts
-└── ...
+* `├── assets/`
+    * Images, fonts, and other static assets.
+* `├── src/`
+    * Contains the core application source code.
+* `├── .env`
+    * **Environment variables** (like the API key).
+* `├── App.js`
+    * **Main application entry point**.
+* `├── package.json`
+    * Project dependencies and scripts.
+* `└── ...`
+    * (Other standard files like `.gitignore`, `README.md`, etc.).
+
+---
+
+## Source (`src/`) Directory
+
+The `src/` directory is organized into the following subdirectories:
+
+* `├── src/components/`
+    * **Reusable UI components** (e.g., `SearchBar`, `BusinessCard`).
+* `├── src/screens/`
+    * **Main application screens** (e.g., `SearchScreen`, `DetailScreen`).
+* `└── src/api/`
+    * **Logic for API communication** and setup (e.g., Yelp API).
+
+
